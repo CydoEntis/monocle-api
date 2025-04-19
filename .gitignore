@@ -1,0 +1,43 @@
+# Build artifacts
+bin/
+obj/
+packages/
+*.user
+*.suo
+
+# Rider project files
+.idea/
+riderModule.iml
+
+# ReSharper files
+_ReSharper*/
+*.DotSettings.user
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# Configuration files you want to keep private
+appsettings.json
+appsettings.Development.json
+
+# Any .http files (like Moncole.api.http)
+*.http
+
+# DotNet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.vspscc
+*.vssscc
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# User-specific files
+*.userosscache
+*.sln.docstates
